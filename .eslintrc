@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:vue/strongly-recommended",
+    "standard"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  }
+}

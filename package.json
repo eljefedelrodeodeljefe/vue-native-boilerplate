@@ -1,0 +1,41 @@
+{
+  "name": "vue-native-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "jest-expo": "28.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.4.1",
+    "vue-native-scripts": "0.0.8"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "lint:fix": "eslint --fix .",
+    "rebuild": "react-native start --reset-cache"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^28.0.0",
+    "native-base": "https://github.com/GeekyAnts/NativeBase#v2.4.2-2",
+    "react": "16.4.1",
+    "react-native": "0.54.0",
+    "vue-native-core": "0.0.6",
+    "vue-native-helper": "0.0.8",
+    "vue-native-router": "0.0.1-alpha.3"
+  }
+}
